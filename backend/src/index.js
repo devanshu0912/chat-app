@@ -3,7 +3,9 @@ import dotenv from "dotenv";
 import cookieParser from "cookie-parser";
 import cors from "cors";
 import path from "path";
+
 import { createServer } from "http";
+
 
 import { connectDB } from "./lib/db.js";
 
@@ -14,7 +16,7 @@ import messageRoutes from "./routes/message.route.js";
 
 dotenv.config();
 
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT;
 const __dirname = path.resolve();
 
 // create express app
