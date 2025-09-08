@@ -1,6 +1,6 @@
 import Navbar from "./components/Navbar";
 import { Routes, Route } from "react-router-dom";
-
+import {Toaster} from "react-hot-toast";
 import { useAuthStore } from "./store/useAuthStore";
 import HomePage from "./pages/HomePage";
 import SignUpPage from "./pages/SignUpPage";
@@ -44,6 +44,8 @@ const App = () => {
         <Route path="/settings" element={<SettingsPage />} />
         <Route path="/profile" element={authUser ? <ProfilePage /> : <Navigate to="/login" />} />
       </Routes>
+
+      <Toaster/>
 
     
     </div>
