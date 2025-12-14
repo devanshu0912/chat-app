@@ -27,9 +27,8 @@ app.use(express.json());
 app.use(cookieParser());
 app.use(cors({
   origin: [
-    "http://localhost:5173",
-    "https://vercel.com/devanshu-shuklas-projects/chat-app",
-  ],
+  
+    "https://chat-app-git-main-devanshu-shuklas-projects.vercel.app",],
   credentials: true
 }));
 
