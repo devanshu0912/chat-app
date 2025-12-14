@@ -17,7 +17,7 @@ import messageRoutes from "./routes/message.route.js";
 
 
 dotenv.config();
-app
+
 
 const PORT = process.env.PORT;
 
