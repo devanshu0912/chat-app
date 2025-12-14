@@ -25,12 +25,15 @@ const PORT = process.env.PORT;
 // middleware
 app.use(express.json());
 app.use(cookieParser());
-app.use(
-  cors({
-    origin: "http://localhost:5173",
-    credentials: true,
-  })
-);
+app.use(cors({
+  origin: [
+    "http://localhost:5173",
+    "https://vercel.com/devanshu-shuklas-projects/chat-app",
+  ],
+  credentials: true
+}));
+
+
 
 // routes
 app.use("/api/auth", authRoutes);
