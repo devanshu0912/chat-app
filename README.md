@@ -122,9 +122,6 @@ Use deployed backend URL
 
 Disable ad-blocker (can block polling)
 
-📸 Screenshots
-
-Add screenshots here (login, chat screen, online users, etc.)
 
 
 ✨ Future Improvements
@@ -133,9 +130,6 @@ Typing indicators
 Message read receipts
 File & image sharing
 Push notifications
-
-
-
 
 
 👨‍💻 Author
