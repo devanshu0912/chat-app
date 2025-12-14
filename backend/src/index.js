@@ -26,12 +26,12 @@ const PORT = process.env.PORT;
 app.use(express.json());
 app.use(cookieParser());
 app.use(cors({
-  origin: [
-    "https://chat-app-git-main-devanshu-shuklas-projects.vercel.app",
-  ],
+  origin: "https://chat-app-ten-sigma-71.vercel.app",
   credentials: true
 }));
+
 app.options("*", cors());
+
 
 
 
