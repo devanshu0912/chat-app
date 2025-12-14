@@ -20,33 +20,26 @@ A full-stack realtime chat application with authentication, private messaging, a
 
 🎨 Modern responsive UI
 
+
+
 🛠️ Tech Stack
+
 Frontend
 
 React (Vite)
-
 Zustand (state management)
-
 Axios
-
 Tailwind CSS
-
 Socket.IO Client
 
 Backend
 
 Node.js
-
 Express.js
-
 MongoDB + Mongoose
-
 Socket.IO
-
 JWT
-
 Cookie-Parser
-
 CORS
 
 📂 Project Structure
@@ -158,34 +151,19 @@ Disable ad-blocker (can block polling)
 
 Add screenshots here (login, chat screen, online users, etc.)
 
+
 ✨ Future Improvements
-
 Group chats
-
 Typing indicators
-
 Message read receipts
-
 File & image sharing
-
 Push notifications
 
-👨‍💻 Author
 
+
+
+
+👨‍💻 Author
 Devanshu Shukla
 
 If you like this project, ⭐ the repository!
-
-If you want, I can also:
-
-Add badges (Vercel, Render, MongoDB)
-
-Write a short project description for resume
-
-Create a deployment checklist
-
-Generate a portfolio-ready README
-
-Just tell me 👍
-
-ChatGPT can make mistakes. Check important info. See Cookie Preferenc
