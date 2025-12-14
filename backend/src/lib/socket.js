@@ -5,7 +5,7 @@ import express from "express";
 const app = express();
 const server = http.createServer(app);
 
-export const io = new Server(server, {
+const io = new Server(server, {
   cors: {
     origin: "https://chat-app-ten-sigma-71.vercel.app",
     credentials: true,
@@ -35,4 +35,4 @@ io.on("connection", (socket) => {
   });
 });
 
-export { app, server };
+export { app, server,io };
