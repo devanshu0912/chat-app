@@ -42,32 +42,7 @@ JWT
 Cookie-Parser
 CORS
 
-📂 Project Structure
-chat-app/
-│
-├── frontend/
-│   ├── src/
-│   │   ├── components/
-│   │   ├── pages/
-│   │   ├── store/
-│   │   ├── lib/
-│   │   │   └── axios.js
-│   │   └── App.jsx
-│   └── vite.config.js
-│
-├── backend/
-│   ├── src/
-│   │   ├── routes/
-│   │   ├── controllers/
-│   │   ├── middleware/
-│   │   ├── lib/
-│   │   │   ├── db.js
-│   │   │   └── socket.js
-│   │   ├── models/
-│   │   └── index.js
-│   └── package.json
-│
-└── README.md
+
 
 🔐 Authentication Flow
 
