@@ -27,11 +27,11 @@ app.use(express.json());
 app.use(cookieParser());
 app.use(cors({
   origin: [
-  
     "https://chat-app-git-main-devanshu-shuklas-projects.vercel.app",
-   " https://chat-app-nmzx.vercel.app",
+  ],
   credentials: true
 }));
+app.options("*", cors());
 
 
 
